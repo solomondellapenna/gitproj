@@ -1,0 +1,5 @@
+"Rule: ocaml dependencies ml (%=first )": "\151\020\151.\191\142tYgk\002<-9\tF"
+"Rule: ocaml: cmx* & o* -> native (%=first )": "\229\\\0008\192j]\130@\021\026\214\133\203\001\183"
+"Rule: ocaml: ml & cmi -> cmx & o (%=first )": "\r\136@\18660\026\248ijp\192_\002\155\174"
+"Resource: /Users/solomondellapenna/gogogo/first.ml": "\167\223\246s#\159\205\229\212'e\203\165\127\181a"
+"Rule: ocaml: ml -> cmo & cmi (%=first )": "\164.\003\199s3g\018\248\1894a.\b\137R"

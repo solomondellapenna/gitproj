@@ -1,0 +1,10 @@
+### Starting build.
+# Target: first.ml.depends, tags: { extension:ml, file:first.ml, ocaml, ocamldep, quiet }
+ocamldep.opt -modules first.ml > first.ml.depends
+# Target: first.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:first.cmo, file:first.ml, implem, ocaml, quiet }
+ocamlc.opt -c -o first.cmo first.ml
+# Target: first.cmx, tags: { compile, extension:cmx, extension:ml, file:first.cmx, file:first.ml, implem, native, ocaml, quiet }
+ocamlopt.opt -c -o first.cmx first.ml
+# Target: first.native, tags: { dont_link_with, extension:native, file:first.native, link, native, ocaml, program, quiet }
+ocamlopt.opt first.cmx -o first.native
+# Compilation successful.
